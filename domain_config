@@ -1,0 +1,4 @@
+name = "pip2"
+kernel = "pip.img"
+extra = "-ipaddr 10.1.1.20 -netmask 10.1.1.255 -gateway 10.1.1.1 -eval 'sink:start()' -home /pip -pz /pip/ebin"
+vif = ["bridge=xenbr0"]
